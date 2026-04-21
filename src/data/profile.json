@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Gianmarco Cavallo - Freelance front-end Developer",
-    "description": "I'm a developer based in Italy, passionate about user experience and specializing in engaging animations and micro-interactions. My primary tools of choice include: JavaScript, React, Solid.js, Astro, Svelte, and Node.js.",
+    "title": "Mia Antoniuk - NAIT student",
+    "description": "I'm a university student at NAIT, taking computer science classes. My primary tools of choice include: JavaScript, HTML, CSS",
     "footer": {
       "year": "2026",
       "prefix": "Built on",
@@ -11,40 +11,27 @@
     }
   },
   "seo": {
-    "personName": "Gianmarco",
-    "jobTitle": "Freelance Frontend Developer",
-    "worksFor": "Self-Employed",
-    "location": "Italy",
+    "personName": "Mia Antoniuk",
+    "jobTitle": "Student",
+    "worksFor": "NAIT",
+    "location": "Canadian",
     "countryCode": "IT",
-    "nationality": "Italy",
-    "publisherName": "Gianmarco",
+    "nationality": "Canadian",
+    "publisherName": "Mia Antoniuk",
     "sameAs": [
-      "https://www.linkedin.com/in/gianmarco-cavallo/",
-      "https://github.com/Ladvace"
+      "https://github.com/MiaAntoniuk"
     ]
   },
   "intro": {
     "welcomeLabel": "welcome",
-    "name": "Gianmarco Cavallo",
-    "summary": "a software developer with strong focus on the user experience, animations and micro interactions",
+    "name": "Mia Antoniuk",
+    "summary": "a software developer with strong focus on the user experience, and web design",
     "socialButtons": [
       {
         "ariaLabel": "github profile",
         "screenReaderLabel": "GitHub Profile",
         "icon": "ri:github-fill",
-        "url": "https://github.com/Ladvace"
-      },
-      {
-        "ariaLabel": "linkedin profile",
-        "screenReaderLabel": "Linkedin Profile",
-        "icon": "ri:linkedin-box-fill",
-        "url": "https://www.linkedin.com/in/gianmarco-cavallo/"
-      },
-      {
-        "ariaLabel": "dribble profile",
-        "screenReaderLabel": "Dribble Profile",
-        "icon": "ri:dribbble-fill",
-        "url": "https://dribbble.com/Ladvace_Jace"
+        "url": "https://github.com/MiaAntoniuk"
       }
     ],
     "supportLink": {
@@ -53,43 +40,36 @@
       "imageAlt": "Buy Me a Coffee at ko-fi.com"
     },
     "image": {
-      "src": "/me.webp",
+      "src": "/me-2.png",
       "alt": "memoji of gianmarco"
     }
   },
   "about": {
     "title": "About me",
-    "intro": "Hi, I'm Gianmarco, a front-end software developer from Italy.",
+    "intro": "Hi, I'm Mia Antoniuk, a front-end software developer student from Canada.",
     "toolsIntro": "My primary tools of choice includes:",
     "tools": [
       "JavaScript",
-      "React",
-      "Solidjs",
-      "Astro",
-      "Svelte",
-      "Nodejs"
+      "HTML",
+      "CSS"
     ],
-    "passion": "Beyond coding, I'm passionate about design, illustration, animation and 3D modelling and traveling. An unusual hobby of mine is collecting vintage passports, they're interesting pieces of history to me.",
+    "passion": "Beyond coding, I'm intrested in creating games, playing games, drawing and colouring.",
     "approach": "While I have some preferred tools, I always choose the best one for the job, even if it's not on my usual list. My goal is to find the right solution for each project."
   },
   "contacts": {
     "title": "Let's start working together!",
     "contactDetailsTitle": "Contact Details",
-    "email": "contact@gianmarcocavallo.com",
-    "location": "Italy",
+    "email": "ray.seven132@gmail.com",
+    "location": "Canada",
     "socialsTitle": "Socials",
     "socialLinks": [
       {
-        "label": "Linkedin",
-        "url": "https://www.linkedin.com/in/gianmarco-cavallo/"
-      },
-      {
         "label": "Github",
-        "url": "https://github.com/Ladvace"
+        "url": "https://github.com/MiaAntoniuk"
       },
       {
         "label": "Discord",
-        "url": "https://discordapp.com/users/163300027618295808"
+        "url": "https://discordapp.com/users/1090097273029021698"
       }
     ]
   },
@@ -101,7 +81,7 @@
     "title": "Now",
     "helpLabel": "what's that ?",
     "helpUrl": "https://sive.rs/nowff",
-    "status": "Currently working fulltime"
+    "status": "Currently studying fulltime"
   },
   "sections": {
     "schoolAssignment": {
