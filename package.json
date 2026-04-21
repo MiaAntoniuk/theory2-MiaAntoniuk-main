@@ -1,6 +1,6 @@
 {
   "name": "theory-2-jan-2026",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "predev": "pnpm unocss:build",
@@ -11,7 +11,6 @@
     "lint": "eslint",
     "unocss:build": "unocss \"src/**/*.{js,jsx,ts,tsx}\" --config unocss.config.js -o src/styles/unocss.css",
     "unocss:watch": "unocss \"src/**/*.{js,jsx,ts,tsx}\" --config unocss.config.js -w -o src/styles/unocss.css",
-
     "test": "vitest run",
     "test:watch": "vitest"
   },
