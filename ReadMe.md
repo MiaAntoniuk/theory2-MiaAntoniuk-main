@@ -1,8 +1,8 @@
 # Theory 2
 
-> Student Name: **YOUR_NAME**
+> Student Name: **Mia Antoniuk**
 
-![Website Screenshot](./docs/images/screenshot.png)
+![Website Screenshot](./docs/images/screenshot-website.png)
 
 In this assignment, you will demonstrate your ability to
 
