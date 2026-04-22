@@ -3,7 +3,7 @@ export default async function handler(req, res) {
   const city = "Edmonton";
 
   if (!apiKey) {
-    return res.status(500).json({ error: "Missing OpenWeather API key" });
+    return res.status(500).json({ error: "Missing API key" });
   }
 
   try {
@@ -12,12 +12,18 @@ export default async function handler(req, res) {
     );
 
     if (!response.ok) {
-      return res.status(response.status).json({ error: "Failed to fetch weather data" });
+      return res.status(response.status).json({ error: "Failed to fetch weather" });
     }
 
     const data = await response.json();
-    return res.status(200).json(data);
+
+    return res.status(200).json({
+      city: data.name,
+      temperature: data.main.temp,
+      description: data.weather[0].description,
+      icon: data.weather[0].icon,
+    });
   } catch (error) {
-    return res.status(500).json({ error: "Server error fetching weather" });
+    return res.status(500).json({ error: "Server error" });
   }
 }

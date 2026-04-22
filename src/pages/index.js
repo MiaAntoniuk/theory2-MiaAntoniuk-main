@@ -8,7 +8,7 @@ import AboutMe from "../components/AboutMe";
 import Now from "../components/Now";
 import ContentPlaceholder from "../components/ContentPlaceholder";
 import profileData from "@/data/profile.json";
-// import Globe from "../components/Globe";
+import WeatherCard from "@/components/WeatherCard";
 
 export default function Home() {
   useEffect(() => {
@@ -91,11 +91,7 @@ export default function Home() {
             </p>
           </div>
         </Card>
-        <ContentPlaceholder
-          title={profileData.sections.comingSoon.title}
-          message={profileData.sections.comingSoon.message}
-          cta={profileData.sections.comingSoon.cta}
-        />
+        <WeatherCard/>
         <Card colSpan="md:col-span-1" rowSpan="md:row-span-1">
           <div className="relative min-h-[44px] overflow-hidden">
             <footer className="absolute inset-0 text-xs opacity-100 translate-y-0 transition-all duration-300 ease-out group-hover:-translate-y-3 group-hover:opacity-0 group-focus-within:-translate-y-3 group-focus-within:opacity-0">
